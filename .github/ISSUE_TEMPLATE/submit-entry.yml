@@ -1,0 +1,48 @@
+name: Suggest a Resilience Resource
+description: Propose a production framework, paper, benchmark, or real-world incident for awesome-autonomous-agent-resilience.
+title: "[Entry]: "
+labels: ["new-entry", "triage"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource Name
+      description: Concise project, paper, or incident name.
+      placeholder: "e.g., AgentBunker"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical URL
+      description: Direct HTTPS link to the GitHub repository, paper, or primary post-mortem.
+      placeholder: "https://github.com/org/project"
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Target Section
+      options:
+        - Durable Execution and Agent Runtimes
+        - Structured Output and Human-in-the-Loop Controls
+        - Observability, Tracing, and Evaluation
+        - Prompt Injection, Guardrails, and Red-Teaming
+        - Sandboxing and Execution Isolation
+        - Memory Management and Bounded Context
+        - Chaos Engineering and Fault Injection
+        - Causal Inference and Formal Verification
+        - Multi-Agent Coordination, Debate, and Failure Analysis
+        - Benchmarks and Stress-Testing Suites
+        - Research Papers and Engineering Guides
+        - Real-World Incidents and Post-Mortems
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why It Improves Agent Resilience
+      description: One factual sentence starting with a capital letter and ending with a period (matching awesome-lint format).
+      placeholder: "Provides atomic SQLite WAL state recovery and circuit breakers for continuous autonomous agents."
+    validations:
+      required: true

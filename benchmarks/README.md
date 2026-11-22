@@ -1,5 +1,7 @@
 # Resilience Chaos Benchmark Suite (`F01`–`F10`)
 
+![F01-F10 Resilience Chaos Benchmark Output](assets/bench_demo.svg)
+
 An executable, zero-dependency Python 3.11+ chaos test harness mapping every production failure mode from [`../TAXONOMY.md`](../TAXONOMY.md) into deterministic pass/fail stress scenarios.
 
 ## Quickstart

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discuss Resilience Patterns (GitHub Discussions)
+    url: https://github.com/pokushko/awesome-autonomous-agent-resilience/discussions
+    about: Ask questions, propose new failure modes (F01-F10), or share production agent lessons.
+  - name: EvoNova Labs Portal & R&D Collaborations
+    url: https://pokushko.github.io
+    about: Production AI resilience audits, industrial digital twins, and academic grant collaborations.
