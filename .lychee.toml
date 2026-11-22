@@ -1,0 +1,12 @@
+timeout = 20
+max_retries = 3
+retry_wait_time = 2
+accept = ["100..=103", "200..=299", "429"]
+user_agent = "Mozilla/5.0 (compatible; lychee-link-checker/1.0)"
+
+# Zenodo's WAF returns HTTP 403 to automated headless bots even though
+# browsers and the Zenodo REST API (zenodo.org/api/records/23942797) return 200 OK.
+exclude = [
+  "^https://doi\\.org/10\\.5281/zenodo\\.",
+  "^https://zenodo\\.org/records/",
+]
