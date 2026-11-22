@@ -1,0 +1,58 @@
+<svg width="100%" height="220" viewBox="0 0 960 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgAwesome" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#070b14" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FC466B" />
+      <stop offset="50%" stop-color="#3F5EFB" />
+      <stop offset="100%" stop-color="#00F0FF" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D26A" />
+      <stop offset="100%" stop-color="#00F0FF" />
+    </linearGradient>
+    <pattern id="gridAwesome" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.6"/>
+    </pattern>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="960" height="220" rx="14" fill="url(#bgAwesome)" />
+  <rect width="960" height="220" rx="14" fill="url(#gridAwesome)" />
+
+  <!-- Abstract Network Nodes -->
+  <g opacity="0.3">
+    <circle cx="830" cy="60" r="3.5" fill="#00F0FF" />
+    <circle cx="900" cy="110" r="2.5" fill="#FC466B" />
+    <circle cx="760" cy="140" r="4" fill="#3F5EFB" />
+    <circle cx="700" cy="70" r="3" fill="#00D26A" />
+    <circle cx="860" cy="165" r="3" fill="#00F0FF" />
+    <line x1="830" y1="60" x2="900" y2="110" stroke="#00F0FF" stroke-width="1" />
+    <line x1="830" y1="60" x2="700" y2="70" stroke="#00D26A" stroke-width="1" />
+    <line x1="830" y1="60" x2="760" y2="140" stroke="#3F5EFB" stroke-width="1" />
+    <line x1="760" y1="140" x2="860" y2="165" stroke="#FC466B" stroke-width="1" />
+    <line x1="900" y1="110" x2="860" y2="165" stroke="#00F0FF" stroke-width="1" />
+  </g>
+
+  <!-- Outer Border -->
+  <rect x="1" y="1" width="958" height="218" rx="13" fill="none" stroke="#223354" stroke-width="1.5" />
+
+  <!-- Badge Top -->
+  <rect x="50" y="32" width="220" height="24" rx="4" fill="#132338" stroke="#00F0FF" stroke-width="0.8" />
+  <text x="62" y="48" fill="#00F0FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5">EVONOVA LABS • SOTA 2027</text>
+
+  <!-- Main Headline -->
+  <text x="50" y="98" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="900" letter-spacing="0.5">AWESOME AGENT RESILIENCE</text>
+  
+  <!-- Subtitle -->
+  <text x="50" y="130" fill="url(#accentGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600">The Definitive Index on 24/7 Fault-Tolerance, Chaos Engineering &amp; Self-Healing for AI Agents</text>
+
+  <!-- Technical Spec Summary -->
+  <text x="50" y="162" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">WAL Persistence • Tri-State Circuit Breakers • OOM Prevention • Causal Invariance • Zero-Trust Sandboxing</text>
+
+  <!-- Author Tag -->
+  <text x="50" y="190" fill="#00D26A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Curated by Roman Pokushko (Founder @ EvoNova Labs)</text>
+</svg>
