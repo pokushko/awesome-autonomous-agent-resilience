@@ -4,7 +4,7 @@
 
 A curated index of durable execution engines, observability stacks, prompt-injection defenses, execution sandboxes, benchmarks, peer-reviewed research, and documented real-world post-mortems for building **24/7 fault-tolerant, memory-bounded, and self-healing autonomous AI agents**.
 
-See the companion [Agent Failure Taxonomy Matrix and Reference Patterns](TAXONOMY.md) for a 10-mode production failure catalog mapped to MAST and OWASP Agentic Top 10 with Python mitigation patterns. Maintained by [Roman Pokushko](https://github.com/pokushko) (EvoNova Labs).
+See the companion [Agent Failure Taxonomy Matrix and Reference Patterns](TAXONOMY.md) for a 10-mode production failure catalog mapped to MAST and OWASP Agentic Top 10 with Python mitigation patterns, and the [Resilience Chaos Benchmark Suite](benchmarks/README.md) to score agents against `F01–F10`. Maintained by [Roman Pokushko](https://github.com/pokushko) (EvoNova Labs).
 
 ## Contents
 
@@ -67,6 +67,7 @@ See the companion [Agent Failure Taxonomy Matrix and Reference Patterns](TAXONOM
 - [MLflow](https://github.com/mlflow/mlflow) - End-to-end AI lifecycle platform supporting agent execution tracing, prompt registries, and automated evaluation suites. (production, 28.9k stars, 2026-11)
 - [DeepEval](https://github.com/confident-ai/deepeval) - Open-source LLM evaluation framework running unit tests on hallucination rates, tool correctness, and CI regressions. (production, 19.6k stars, 2026-11)
 - [AutoEvals](https://github.com/braintrustdata/autoevals) - Scoring library from Braintrust providing deterministic and model-graded checks for agent outputs. (production, 1.1k stars, 2026-11)
+- [Sci Integrity Guard](https://github.com/pokushko/sci-integrity-guard) - Neuro-symbolic linter verifying CrossRef and OpenAlex DOIs, cross-table numerical parity, and LaTeX-to-Word OMML formulas. (maintainer's project, 2026-11)
 
 ## Prompt Injection, Guardrails, and Red-Teaming
 
@@ -138,6 +139,7 @@ See the companion [Agent Failure Taxonomy Matrix and Reference Patterns](TAXONOM
 - [Dafny](https://github.com/dafny-lang/dafny) - Verification-aware programming language enabling static formal verification of agent-generated preconditions and postconditions. (production, 3.6k stars, 2026-11)
 - [SymPy](https://github.com/sympy/sympy) - Symbolic mathematics engine checking algebraic conservation laws, dimensional consistency, and differential equation derivatives. (production, 15.1k stars, 2026-11)
 - [PySR](https://github.com/astroautomata/PySR) - High-performance symbolic regression engine extracting closed-form analytical laws directly from empirical observations. (production, 4.3k stars, 2026-11)
+- [EvoNova Causal Guard](https://github.com/pokushko/evonova-causal-guard) - Zero-dependency Python Pearl do-calculus DAG verifier, Tabu memory archive, and multi-agent debate arbiter. (maintainer's project, 2026-11)
 
 ## Multi-Agent Coordination, Debate, and Failure Analysis
 
