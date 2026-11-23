@@ -214,9 +214,17 @@ def discover_arxiv_candidates(existing_arxiv_ids: set[str], limit: int = 6) -> l
 
         title = " ".join((title_node.text or "").split())
         year = (pub_node.text or "")[:4] if pub_node is not None else datetime.now(timezone.utc).strftime("%Y")
-        authors = [a.findtext("a:name", default="", namespaces=ns) for a in entry.findall("a:author", ns)]
-        first_last = authors[0].split()[-1] if authors and authors[0].strip() else "Authors"
-        label = f"{title} ({first_last} et al., {year})"
+        authors = [a.findtext("a:name", default="", namespaces=ns).strip() for a in entry.findall("a:author", ns)]
+        authors = [a for a in authors if a]
+        if len(authors) == 1:
+            author_cite = authors[0].split()[-1]
+        elif len(authors) == 2:
+            author_cite = f"{authors[0].split()[-1]} and {authors[1].split()[-1]}"
+        elif len(authors) > 2:
+            author_cite = f"{authors[0].split()[-1]} et al."
+        else:
+            author_cite = "Authors"
+        label = f"{title} ({author_cite}, {year})"
 
         summary_text = " ".join((summary_node.text if summary_node is not None else "").split())
         sentences = re.split(r"(?<=[.!?])\s+", summary_text, maxsplit=1)

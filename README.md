@@ -192,6 +192,8 @@ See the companion [Agent Failure Taxonomy Matrix and Reference Patterns](TAXONOM
 - [Toolformer: Language Models Can Teach Themselves to Use Tools (Schick et al., 2023)](https://arxiv.org/abs/2302.04761) - Self-supervised method teaching language models when and how to invoke external APIs reliably. (research)
 - [Voyager: An Open-Ended Embodied Agent with Large Language Models (Wang et al., 2023)](https://arxiv.org/abs/2305.16291) - Iterative skill-library architecture verifying executable code artifacts against environment feedback before reuse. (research)
 - [SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering (Yang et al., 2024)](https://arxiv.org/abs/2405.15793) - Demonstrates that well-designed agent-computer interfaces and linters substantially curb loop and syntax failures. (research)
+- [SkillBridge: Cost-Aware Diagnosis and Repair of Cross-OS Compatibility Defects in Agent Skills (Xu et al., 2026)](https://arxiv.org/abs/2611.26256) - Cost-aware diagnostic and repair framework resolving OS-level compatibility defects in executable agent skills. (research)
+- [Beyond Weight Updates: Evolving Agent Harnesses for Domain Specialization (Chen, 2026)](https://arxiv.org/abs/2611.25380) - Empirical study on evolving agent harnesses across prompts, tool schemas, and skills while keeping model weights frozen. (research)
 
 ### Memory and Long-Context Stability
 
@@ -207,6 +209,7 @@ See the companion [Agent Failure Taxonomy Matrix and Reference Patterns](TAXONOM
 - [AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents (Debenedetti et al., 2024)](https://arxiv.org/abs/2406.13352) - Introduces a stateful, dynamic suite quantifying both utility and attack success rate under tool-mediated prompt injection. (research)
 - [AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents (Andriushchenko et al., 2024)](https://arxiv.org/abs/2410.09024) - Evaluates multi-step malicious task robustness and jailbreak resilience across tool-augmented agents. (research)
 - [EchoLeak: The First Real-World Zero-Click Prompt Injection Exploit in a Production LLM System (Reddy et al., 2025)](https://arxiv.org/abs/2509.10540) - Detailed technical analysis of CVE-2025-32711, demonstrating zero-click enterprise data exfiltration chains. (research)
+- [Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI) (Wang et al., 2026)](https://arxiv.org/abs/2611.26553) - Forensic evaluation framework reproducing, validating, and root-cause auditing real-world agentic security incidents. (research)
 - [Constitutional AI: Harmlessness from AI Feedback (Bai et al., 2022)](https://arxiv.org/abs/2212.08073) - Principle-driven critique and revision method bounding harmful autonomous agent behaviors. (research)
 
 ### Multi-Agent Debate and Evaluation Papers
